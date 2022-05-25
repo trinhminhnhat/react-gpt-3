@@ -45,6 +45,10 @@
 	cursor: pointer;
 }
 
+.gpt3__navbar-menu_container p a {
+	display: block;
+}
+
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
 	padding: 0.5rem 1rem;
@@ -85,6 +89,10 @@
 	min-width: 210px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gpt3__navbar-menu_container-links {
+	width: 100%;
 }
 
 .gpt3__navbar-menu_container p {
